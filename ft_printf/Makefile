@@ -3,7 +3,13 @@ NAME= libftprintf.a
 WFLAGS= -Wall -Wextra -Werror
 HEADER= include/ft_printf.h
 
-SRCS = srcs/ft_printf.c srcs/helpers.c
+SRCS = srcs/ft_printf.c \
+		srcs/helpers/ft_putchar.c \
+		srcs/helpers/ft_putstr.c \
+		srcs/helpers/ft_putnbr.c \
+		srcs/helpers/ft_putadd.c \
+		srcs/helpers/ft_puthex.c \
+		srcs/helpers/ft_putunsgd.c
 
 OBJS = $(SRCS:.c=.o)
 
