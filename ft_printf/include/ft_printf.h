@@ -6,7 +6,7 @@
 /*   By: lilyass <lilyass@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/07 17:06:23 by lilyass           #+#    #+#             */
-/*   Updated: 2026/11/15 15:35:02 by lilyass          ###   ########.fr       */
+/*   Updated: 2026/11/16 18:30:40 by lilyass          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,10 +22,10 @@ int		ft_printf(const char *format, ...);
 // Helper function prototypes
 int		ft_putstr(char *s);
 int		ft_putchar(char c);
-void	ft_putunsgd(unsigned int n, int *printed_chars);
-void	ft_putnbr(int n, int *printed_chars);
-void	ft_putadd(unsigned long addrs, int *printed_chars);
-void	ft_puthex(unsigned long hex, int *printed_chars, char format);
+int		ft_putunsgd(unsigned int n);
+int		ft_putnbr(int n);
+int		ft_putadd(unsigned long addrs);
+int		ft_puthex(unsigned long hex, char format);
 size_t	ft_strlen(const char *s);
 
 #endif
