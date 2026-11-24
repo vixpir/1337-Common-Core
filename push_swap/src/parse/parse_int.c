@@ -6,11 +6,11 @@
 /*   By: lilyass <lilyass@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/23 17:45:08 by lilyass           #+#    #+#             */
-/*   Updated: 2026/11/23 23:45:45 by lilyass          ###   ########.fr       */
+/*   Updated: 2026/11/24 16:31:07 by lilyass          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/push_swap.h"
+#include "../../include/push_swap.h"
 
 int	parse_int(const char *str, int *out)
 {
