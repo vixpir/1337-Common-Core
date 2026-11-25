@@ -6,11 +6,11 @@
 /*   By: lilyass <lilyass@student.1337.ma>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/23 16:11:30 by lilyass           #+#    #+#             */
-/*   Updated: 2026/11/23 16:55:06 by lilyass          ###   ########.fr       */
+/*   Updated: 2026/11/25 18:17:23 by lilyass          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../include/push_swap.h"
+#include "../../include/push_swap.h"
 
 double	compute_disorder(t_stack *a)
 {
