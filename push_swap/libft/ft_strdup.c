@@ -1,0 +1,26 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: lilyass <lilyass@student.1337.ma>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/16 17:48:31 by lilyass           #+#    #+#             */
+/*   Updated: 2026/11/25 23:44:50 by lilyass          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "../include/libft.h"
+
+char	*ft_strdup(const char *s1)
+{
+	size_t	len;
+	char	*dest;
+
+	len = ft_strlen(s1) + 1;
+	dest = malloc(len);
+	if (!dest)
+		return (NULL);
+	ft_memcpy(dest, s1, len);
+	return (dest);
+}
